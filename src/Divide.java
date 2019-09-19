@@ -10,15 +10,15 @@ public class Divide {
         System.out.println("Enter Number 2:");
         y = s.nextInt();
         
-        if(x < y){
+        if(x > y){
             z = x % y;
-            r = z / 3;
-            System.out.println(x + " divided by " + y + " is " + z+"r"+r);
+            r = x / y;
+            System.out.println(x + " divided by " + y + " is " + r+"r"+z);
         }
-        if(y < x){
+        if(y > x){
             z = y % x;
-            r = z / 3;
-            System.out.println(y + " divided by " + x + " is " + z);
+            r = y / x;
+            System.out.println(y + " divided by " + x + " is " + r+"1r"+z);
         }
         
         
