@@ -18,7 +18,7 @@ public class Divide {
         if(y > x){
             z = y % x;
             r = y / x;
-            System.out.println(y + " divided by " + x + " is " + r+"1r"+z);
+            System.out.println(y + " divided by " + x + " is " + r+"r"+z);
         }
         
         
