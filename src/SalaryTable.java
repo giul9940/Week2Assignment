@@ -10,7 +10,7 @@ public class SalaryTable {
             System.out.format("%d%20d", year, currentsalary);
             newsalary = (int) (0.03 * currentsalary);
             currentsalary+=newsalary;
-            System.out.format("%2d%16d\n", newsalary, currentsalary); 
+            System.out.format("%23d%16d\n", newsalary, currentsalary); 
         }
                
     }
